@@ -5,7 +5,7 @@ export default function Partnership() {
   const text = "Our Partnerships";
   return (
     <div>
-      <div className="partnership-container">
+      <div className="partnershipContainer">
         <h1 className="wave-text">
           {text.split("").map((letter, index) => {
             if (letter === " ") {

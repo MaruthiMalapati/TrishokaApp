@@ -90,7 +90,7 @@
     height: 400px;
   }
 
-  .partnership-container {
+  .partnershipContainer {
     position: relative;
     /* background-image: url(images/partner.jpeg); */
     background-image: url(./partner.jpeg) !important;
@@ -107,7 +107,7 @@
     padding-top: 30%;
   }
 
-  .partnership-container::after {
+  .partnershipContainer::after {
     content: "";
     position: absolute;
     top: 0;
@@ -119,7 +119,7 @@
     z-index: 1;
   }
 
-  .partnership-container h1 {
+  .partnershipContainer h1 {
     z-index: 2;
     /* Ensure the content is above the overlay */
     color: #fff;
