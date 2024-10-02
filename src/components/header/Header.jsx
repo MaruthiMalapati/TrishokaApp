@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import logo from "../../assets/images/trishokalogonobg.png";
+import { Link } from "react-router-dom";
 export default function Header(props) {
+  const navLinks = ["Partnership", "Blogs", "Culture", "Careers", "Contact Us"];
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light ">
@@ -32,40 +34,24 @@ export default function Header(props) {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link active"
                   aria-current="page"
-                  href="navbar.html"
+                  to="/"
                   style={{ color: "whitesmoke" }}
                 >
                   Home
-                </a>
+                </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="partnerships.html">
-                  Partnership
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="Blog.html">
-                  Blogs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="culture.html">
-                  Culture
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="careers.html">
-                  Careers
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="contact.html">
-                  Contact Us
-                </a>
-              </li>
+              {navLinks.map((navlink, index) => {
+                return (
+                  <li className="nav-item" key={index}>
+                    <Link className="nav-link" to={`/${navlink}`}>
+                      {navlink}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>
