@@ -1,0 +1,18 @@
+.reuseClass{
+    color: whitesmoke !important;
+    font-family:Georgia, Times New Roman, Times, serif
+}
+footer{
+    background-color:#B87333;
+    margin-top: 20px;
+    height: 187px;
+}
+.contentright{
+    display: flex;
+    align-items: center;
+    color: green;
+    justify-content: center;
+    font-weight: 700;
+    font-size: smaller;
+    font-family: cursive;
+}
