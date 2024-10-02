@@ -8,11 +8,11 @@ export default function Partnership() {
       <div className="partnership-container">
         <h1 className="wave-text">
           {text.split("").map((letter, index) => {
-            letter === " " ? (
-              <span key={index}>&nbsp;</span>
-            ) : (
-              <span key={index}>{letter}</span>
-            );
+            if (letter === " ") {
+              return <span key={index}>&nbsp;</span>;
+            } else {
+              return <span key={index}>{letter}</span>;
+            }
           })}
         </h1>
       </div>
