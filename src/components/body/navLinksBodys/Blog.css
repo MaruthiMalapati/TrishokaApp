@@ -12,7 +12,7 @@ a {
     color: rgb(232, 232, 232);
   }
 
-  .partnership-container {
+  .blogContainer {
     position: relative;
     background-image: url(./blogblogblog.jpeg);
     background-size: cover;
@@ -31,7 +31,7 @@ a {
 
   /* Optional: Make the font-size responsive for smaller screens */
   @media (max-width: 768px) {
-    .partnership-container {
+    .blogContainer {
       font-size: 1.5rem;
       /* Adjust font size for mobile */
     }
@@ -53,7 +53,7 @@ a {
     object-fit: cover;
   }
 
-  .carousel-caption {
+  .blogCaption {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
   }

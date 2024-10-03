@@ -1,0 +1,76 @@
+.header {
+    background-image: url('../../../assets/careerImages/careeresimage4.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .marquee {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #B87333;
+  }
+  
+  .sectionTitle {
+    color: #B87333;
+    text-align: center;
+    padding-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+  
+  .animatedCard {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2.5s ease, transform 2.5s ease;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .tag {
+    background-color: #ffe6ce;
+    border-color: #ffe6ce;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .applyButton {
+    background-color: rgb(90, 178, 213);
+    color: whitesmoke;
+  }
+  
+  .reviewsTitle {
+    color: #e49448;
+  }
+  
+  .reviewCard {
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reviewAuthor {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .reviewText {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .stars {
+    color: #f39c12;
+    font-size: 1.2em;
+  }
+  

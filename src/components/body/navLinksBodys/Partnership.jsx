@@ -1,18 +1,21 @@
 import React from "react";
 import { globalServiceData } from "../services/services";
+import bonchesara from "../../../assets/partnershipImages/bhonchesara.webp";
+import svsLogo from "../../../assets/partnershipImages/svslogo.jpg";
+import teamLogo from "../../../assets/partnershipImages/team9logo.jpg";
 import "./partnerShip.css";
 export default function Partnership() {
   const text = "Our Partnerships";
   return (
     <div>
-      <div className="partnership-container">
+      <div className="partnershipContainer">
         <h1 className="wave-text">
           {text.split("").map((letter, index) => {
-            letter === " " ? (
-              <span key={index}>&nbsp;</span>
-            ) : (
-              <span key={index}>{letter}</span>
-            );
+            if (letter === " ") {
+              return <span key={index}>&nbsp;</span>;
+            } else {
+              return <span key={index}>{letter}</span>;
+            }
           })}
         </h1>
       </div>
@@ -31,7 +34,7 @@ export default function Partnership() {
               <h6 className="text-center text-shadow fontFamily sriSvuHeader">
                 Sri SVS
               </h6>
-              <img src="images/svslogo.jpg" alt="Sri SVS" />
+              <img src={svsLogo} alt="Sri SVS" />
               <div className="hover-content">
                 <p className="fontFamily">Sri SVS</p>
                 <p style={{ color: "#B87333" }}>
@@ -45,7 +48,7 @@ export default function Partnership() {
               <h6 className="text-center text-shadow sriSvuHeader">
                 BHONCHESARA
               </h6>
-              <img src="images/bhonchesara.webp" alt="BHONCHESARA" />
+              <img src={bonchesara} alt="BHONCHESARA" />
               <div className="hover-content">
                 <p>BHONCHESARA</p>
                 <p style={{ color: "#B87333" }}>
@@ -59,7 +62,7 @@ export default function Partnership() {
               <h6 className="text-center text-shadow sriSvuHeader">
                 Team 9 Infra
               </h6>
-              <img src="images/team9logo.jpg" alt="Team 9 Infra" />
+              <img src={teamLogo} alt="Team 9 Infra" />
               <div className="hover-content">
                 <p>Team 9 Infra</p>
                 <p style={{ color: "#B87333" }}>

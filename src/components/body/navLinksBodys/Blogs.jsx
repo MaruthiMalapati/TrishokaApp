@@ -9,7 +9,7 @@ export default function Blogs() {
   return (
     <div>
       <div>
-        <h1 className="partnership-container"></h1>
+        <h1 className="blogContainer"></h1>
       </div>
 
       <div style={{ paddingTop: "30px" }}>

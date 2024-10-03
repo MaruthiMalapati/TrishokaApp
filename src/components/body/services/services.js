@@ -109,3 +109,65 @@ export const technologies = [
     className1: { marginRight: 0, paddingBottom: 30 } 
   },
 ];
+
+export const jobs = [
+  {
+    title: "Digital Marketing",
+    experience: "Fresher",
+    availability: "Immediate Joiner",
+    location: "Hyderabad (On-site)",
+    qualifications: [
+      "Bachelor's degree in Design or equivalent practical experience.",
+      "Experience collaborating with multidisciplinary teams of Designers, Researchers, Engineers, Content Strategists, and Product Managers.",
+      "Portfolio highlighting multiple projects that demonstrate experience crafting digital interfaces.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    experience: "6 Months Experience",
+    availability: "Immediate Joiner or 15 days",
+    location: "Hyderabad (On-site)",
+    qualifications: [
+      "Bachelor's degree in Design or equivalent practical experience.",
+      "Experience collaborating with multidisciplinary teams.",
+      "Portfolio highlighting multiple projects that demonstrate experience crafting digital interfaces.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    experience: "1 Year Experience",
+    availability: "Immediate Joiner or 15 days",
+    location: "Hyderabad (On-site)",
+    qualifications: [
+      "Bachelor's degree in Design or equivalent practical experience.",
+      "Experience collaborating with teams and solving problems.",
+      "Portfolio highlighting multiple projects that demonstrate crafting digital interfaces.",
+    ],
+  },
+  {
+    title: "UI/UX Designer",
+    experience: "Fresher",
+    availability: "Immediate Joiner",
+    location: "Hyderabad (On-site)",
+    qualifications: [
+      "Bachelor's degree in Design or equivalent practical experience.",
+      "Experience collaborating with multidisciplinary teams.",
+      "Portfolio highlighting multiple projects that demonstrate experience designing consumer-focused products.",
+    ],
+  },
+];
+
+export const reviews = [
+  {
+      author:"Priyanshika Reddy",
+      text:"Great service and support! Highly recommended.",
+      stars:4,
+      postedOn:"Google"
+  },
+  {
+      author:"Maheshwari Kamal",
+      text:"Excellent customer care and...",
+      stars:5,
+      postedOn:"Google",
+  }
+]
