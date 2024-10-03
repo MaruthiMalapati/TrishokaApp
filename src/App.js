@@ -44,6 +44,8 @@ import Footer from "./components/footerComponents/Footer";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Partnership from "./components/body/navLinksBodys/Partnership";
 import Blogs from "./components/body/navLinksBodys/Blogs";
+import Careers from "./components/body/navLinksBodys/Careers";
+import ContactUs from "./components/body/navLinksBodys/ContactUs";
 
 function App() {
  
@@ -59,6 +61,14 @@ function App() {
     {
       path:'/Blogs',
       element:<>  <Header /> <Blogs/>  <Footer /></>
+    },
+    {
+      path:'/Careers',
+      element:<> <Header/> <Careers/> <Footer/> </>
+    },
+    {
+      path:'/ContactUs',
+      element: <><Header/> <ContactUs/> <Footer/></>
     }
 
     

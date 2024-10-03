@@ -3,7 +3,7 @@ import "./Header.css";
 import logo from "../../assets/images/trishokalogonobg.png";
 import { Link } from "react-router-dom";
 export default function Header(props) {
-  const navLinks = ["Partnership", "Blogs", "Culture", "Careers", "Contact Us"];
+  const navLinks = ["Partnership", "Blogs", "Careers", "ContactUs"];
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light ">
