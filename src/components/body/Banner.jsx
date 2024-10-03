@@ -1,7 +1,10 @@
 import React from "react";
 import banner from "../../assets/images/banner.png";
 import "./section.css";
+
 const Banner = () => {
+const tes = "test";
+console.log(tes);
   return (
     <div className="image-caption">
       <img
