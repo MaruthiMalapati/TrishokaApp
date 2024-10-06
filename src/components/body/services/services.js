@@ -5,6 +5,15 @@ import applicationLogo from '../../../assets/cardsImages/applicationlogo.png';
 import dataLogo from '../../../assets/cardsImages/datanalysislogo.png';
 import digiBlog from '../../../assets/blogImages/digitalblog1.jpg'
 import uiImgBlog  from '../../../assets/blogImages/uipage.jpeg'
+
+import seoImg from '../../../assets/servicesImg/seo1.png';
+import growthimage from '../../../assets/servicesImg/growthimage.jpeg';
+import digitalmarketing from '../../../assets/servicesImg/digitalmarketing.jpeg';
+import brandingidentity2 from '../../../assets/servicesImg/brandingidentity2.jpeg';
+import analysis1 from '../../../assets/servicesImg/analysis1.jpg';
+import writing1 from '../../../assets/servicesImg/writing1.jpg';
+
+
 export const servicesData = [
     {
       title: 'Digital Marketing',
@@ -171,3 +180,285 @@ export const reviews = [
       postedOn:"Google",
   }
 ]
+
+// servicesData.js
+// export const servicesNavData = [
+//   {
+//     title: "SEO BOOSTER",
+//     color: "#B87333",
+//     color1: "#da9f68",
+//     imageSrc: "images/seo1.png",
+//     description: "Perfect Your Website for Web Visibility",
+//     description1:" We at TRISHOKA Digital Services know that Search Engine Optimization is key for online success...",
+//     offerings: [
+//       "On-Page Optimization",
+//       "Technical SEO",
+//       "Content Strategy",
+//       "Link Building",
+//       "Image Optimization",
+//     ],
+//     imgalt:''
+//   },
+//   {
+//     title: "BUSINESS GROWTH",
+//     color: "#da9f68",
+//     color1:"#B87333",
+//     imageSrc: "images/growthimage.jpeg",
+//     description: "Strategic Objectives and Audience Understanding",
+//     description1:"At TRISHOKA Digital Services, we are committed to fostering strategic business growth that drives companies to new heights.",
+//     offerings: [
+//       "Market Expansion",
+//       "Operational Efficiency",
+//       "Customer Satisfaction",
+//     ],
+//      imgalt:''
+//   },
+//   {
+//     title: "CONTENT CREATION",
+//     color: "#6D9BF1",
+//     color1:"#B87333",
+//     imageSrc: "images/contentcreation.png",
+//     description: "Engage Your Audience with High-Quality Content",
+//     description1:"we harness the power of Digital Marketing to connect brands with their target audience.",
+
+//     offerings: [
+//       "Blog Writing",
+//       "Video Production",
+//       "Graphic Design",
+//       "Social Media Posts",
+//       "Email Campaigns",
+//     ],
+//      imgalt:''
+//   },
+//   {
+//     title: "SOCIAL MEDIA MARKETING",
+//     color: "#ff8c00",
+//     color1:"#B87333"
+//     imageSrc: "images/socialmedia.png",
+//     description: "Boost Your Brand's Online Presence",
+//     description1 :"A strong Brand Identity is the cornerstone of your Business’s Success.",
+//     offerings: [
+//       "Campaign Strategy",
+//       "Audience Targeting",
+//       "Influencer Collaboration",
+//       "Ad Campaign Management",
+//       "Engagement and Monitoring",
+//     ],
+//   },
+//   {
+//     title: "WEB DEVELOPMENT",
+//     color: "#008080",
+//     imageSrc: "images/webdev.png",
+//     description: "Build a High-Performance, Responsive Website",
+//     offerings: [
+//       "Custom Website Design",
+//       "E-commerce Development",
+//       "CMS Integration",
+//       "Mobile Optimization",
+//       "Website Maintenance",
+//     ],
+//   },
+//   {
+//     title: "EMAIL MARKETING",
+//     color: "#4682b4",
+//     imageSrc: "images/emailmarketing.png",
+//     description: "Reach Your Audience Directly with Personalized Campaigns",
+//     offerings: [
+//       "Email List Building",
+//       "Automated Campaigns",
+//       "Segmentation and Personalization",
+//       "A/B Testing",
+//       "Analytics and Reporting",
+//     ],
+//   },
+//   {
+//     title: "BRANDING & DESIGN",
+//     color: "#b22222",
+//     imageSrc: "images/branding.png",
+//     description: "Create a Distinct and Memorable Brand Identity",
+//     offerings: [
+//       "Logo Design",
+//       "Brand Messaging",
+//       "Visual Identity",
+//       "Brand Guidelines",
+//       "Print and Digital Design",
+//     ],
+//   },
+//   {
+//     title: "DATA ANALYTICS",
+//     color: "#483d8b",
+//     imageSrc: "images/analytics.png",
+//     description: "Unlock Insights from Your Data to Drive Growth",
+//     offerings: [
+//       "Data Collection and Storage",
+//       "Real-Time Analytics",
+//       "Custom Dashboards",
+//       "Customer Insights",
+//       "Predictive Modeling",
+//     ],
+//   },
+//   {
+//     title: "PAID ADVERTISING",
+//     color: "#2f4f4f",
+//     imageSrc: "images/ppc.png",
+//     description: "Maximize Your ROI with Targeted Advertising",
+//     offerings: [
+//       "Google Ads Management",
+//       "PPC Strategy",
+//       "Display Advertising",
+//       "Conversion Optimization",
+//       "Retargeting Campaigns",
+//     ],
+//   },
+// ];
+
+export const servicesNavData = [
+  {
+    title: "SEO BOOSTER",
+    color: "#B87333",
+    color1: "#da9f68",
+    imageSrc: seoImg,
+    description: "Perfect Your Website for Web Visibility",
+    description1:
+      "We at TRISHOKA Digital Services know that Search Engine Optimization is key for online success...",
+    offerings: [
+      "On-Page Optimization",
+      "Technical SEO",
+      "Content Strategy",
+      "Link Building",
+      "Image Optimization",
+    ],
+    imgalt: "seo booster service",
+  },
+  {
+    title: "BUSINESS GROWTH",
+    color: "#da9f68",
+    color1: "#df9d5f",
+    imageSrc: growthimage,
+    description: "Strategic Objectives and Audience Understanding",
+    description1:
+      "At TRISHOKA Digital Services, we are committed to fostering strategic business growth that drives companies to new heights.",
+    offerings: ["Market Expansion", "Operational Efficiency", "Customer Satisfaction"],
+    imgalt: "business growth service",
+  },
+  {
+    title: "DIGITAL MARKETING",
+    color: "#df9d5f",
+    color1: "#dca16a",
+    imageSrc: digitalmarketing,
+    description: "Understanding Digital Marketing",
+    description1:
+      "We harness the power of Digital Marketing to connect brands with their target audience.",
+    offerings: ["Market Expansion", "Operational Efficiency", "Customer Satisfaction"],
+    imgalt: "digital marketing service",
+  },
+  {
+    title: "BRANDING IDENTITY",
+    color: "#dca16a",
+    color1: "#cf9762",
+    imageSrc: brandingidentity2,
+    description: "Elevate Your Brand with Trishoka",
+    description1:
+      "A strong Brand Identity is the cornerstone of your Business’s Success.",
+    offerings: [
+      "Logo",
+      "Color Palette",
+      "Typography",
+      "Imagery",
+      "Voice and Tone",
+      "Tagline",
+      "Design Elements",
+    ],
+    imgalt: "branding identity service",
+  },
+  {
+    title: "DATA ANALYSIS",
+    color: "#cf9762",
+    color1: "#e9a260",
+    imageSrc: analysis1,
+    description: "Unlock Insights with Trishoka",
+    description1:
+      "Effective Data Analysis transforms Raw Data into Actionable Insights, Guiding Strategic Decisions and Driving Business Success.",
+    offerings: [
+      "Data Collection",
+      "Exploratory Data Analysis",
+      "Data Modeling",
+      "Imagery",
+      "Interpretation",
+      "Tagline",
+      "Reporting",
+    ],
+    imgalt: "data analysis service",
+  },
+  {
+    title: "CONTENT WRITING",
+    color: "#e9a260",
+    color1: "#dc9f65",
+    imageSrc: writing1,
+    description: "Captivate Your Audience with Trishoka",
+    description1:
+      "Whether you need content for digital or print media, we craft messages that build Brand Awareness, Drive Traffic and Generate Leads.",
+    offerings: [
+      "Articles and Blog Posts",
+      "Website Content",
+      "Social Media Posts",
+      "Marketing Copy",
+      "Product Descriptions",
+      "Technical Writing",
+    ],
+    imgalt: "content writing service",
+  },
+  {
+    title: "WEB DEVELOPMENT",
+    color: "#dc9f65",
+    color1: "#dc9f66",
+    imageSrc: "images/webdevelopment.jpeg",
+    description: "Experience the Web Design Revolution",
+    description1:
+      "Empower your online presence with Cutting-Edge Web Development solutions.",
+    offerings: [
+      "Custom Websites",
+      "E-Commerce Solutions",
+      "Content Management Services",
+      "Responsive Design",
+    ],
+    imgalt: "web development service",
+  },
+  {
+    title: "SOFTWARE SERVICES",
+    color: "#dc9f66",
+    color1: "#ca8e56",
+    imageSrc: "images/softwareservicesimage.jpeg",
+    description: "Transform Your Business with Our Custom Software Solutions",
+    description1:
+      "Innovative Solutions with Cutting-Edge Technology",
+    offerings: [
+      "Technology Strategy",
+      "IT Infrastructure",
+      "System Integration",
+      "IT Project Management",
+    ],
+    imgalt: "software services service",
+  },
+  {
+    title: "APPLICATION DEVELOPMENT",
+    color: "#ca8e56",
+    color1: "#B87333",
+    imageSrc: "images/Appdevelopment2.jpeg",
+    description: "Innovate and Transform with Trishoka",
+    description1:
+      "Our Application Development services are designed to deliver Scalable, User-Friendly, and High-Performance solutions tailored to meet your specific needs and objectives.",
+    offerings: [
+      "Web Application Development",
+      "Mobile Application Development",
+      "Custom Software Development",
+      "UI/UX Design",
+      "App Integration",
+      "Maintenance and Support",
+    ],
+    imgalt: "application development service",
+  },
+];
+
+
+

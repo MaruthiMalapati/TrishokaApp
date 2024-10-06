@@ -1,6 +1,7 @@
 import React from "react";
 import "../section.css";
 import "../article.css";
+import { Link } from "react-router-dom";
 
 export default function FlipCards(props) {
   return (
@@ -26,9 +27,9 @@ export default function FlipCards(props) {
                 <li key={idx}>{detail}</li>
               ))}
             </ul>
-            <a href="services.html">
+            <Link to="/Services">
               <button className="btn btn-primary">Learn More</button>
-            </a>{" "}
+            </Link>{" "}
           </div>
         </div>
       </div>

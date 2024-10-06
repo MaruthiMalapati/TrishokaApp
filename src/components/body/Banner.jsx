@@ -1,10 +1,11 @@
 import React from "react";
 import banner from "../../assets/images/banner.png";
 import "./section.css";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
-const tes = "test";
-console.log(tes);
+  const tes = "test";
+  console.log(tes);
   return (
     <div className="image-caption">
       <img
@@ -19,13 +20,13 @@ console.log(tes);
         <h1>Cutting-Edge Digital Marketing & IT services</h1>
         <h5>!!We Create Unique and Efficient Digital Service</h5>
         <h1>
-          <a
-            href="contact.html"
+          <Link
+            to="/Services"
             className="btn"
             style={{ backgroundColor: "rgb(77, 156, 187)", color: "white" }}
           >
             Learn More
-          </a>
+          </Link>
         </h1>
       </div>
     </div>

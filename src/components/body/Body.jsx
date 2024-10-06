@@ -3,6 +3,7 @@ import Testimonials from "./testimonilas/Testimonials";
 import ServiceCards from "./services/ServiceCards";
 import Banner from "./Banner";
 import Stories from "./testimonilas/Stories";
+import HappyClients from "./testimonilas/HappyClintsCountingWidget";
 
 export default function Body() {
   return (
@@ -10,6 +11,10 @@ export default function Body() {
       <Banner />
       <ServiceCards />
       <Testimonials />
+      <br />
+      <br />
+      <HappyClients />
+      <br />
       <Stories />
     </main>
   );

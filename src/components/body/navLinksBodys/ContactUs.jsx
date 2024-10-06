@@ -3,6 +3,7 @@ import styles from "./ContactUs.module.scss";
 import svsLogo from "../../../assets/partnershipImages/svslogo.jpg";
 import teamsLogo from "../../../assets/partnershipImages/team9logo.jpg";
 import bhonchesaraLogo from "../../../assets/partnershipImages/bhonchesara.webp";
+import ContactUsForm from "../../forms/ContactUsForm";
 
 const ContactUs = () => {
   useEffect(() => {
@@ -34,8 +35,8 @@ const ContactUs = () => {
           How can we help you?
           <button
             className={styles.contactButton}
-            data-toggle="modal"
-            data-target="#contactModal"
+            data-bs-toggle="modal"
+            data-bs-target="#contactModal"
           >
             Contact Us
           </button>
@@ -51,7 +52,8 @@ const ContactUs = () => {
         >
           <div className="modal-dialog" role="document">
             <div className="modal-content">
-              <u>
+              <ContactUsForm />
+              {/* <u>
                 <h5 className="modal-title" id="contactModalLabel">
                   Reach Out Our Team
                 </h5>
@@ -100,7 +102,7 @@ const ContactUs = () => {
                     Submit
                   </button>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

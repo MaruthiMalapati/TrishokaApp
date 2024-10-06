@@ -46,6 +46,8 @@ import Partnership from "./components/body/navLinksBodys/Partnership";
 import Blogs from "./components/body/navLinksBodys/Blogs";
 import Careers from "./components/body/navLinksBodys/Careers";
 import ContactUs from "./components/body/navLinksBodys/ContactUs";
+import Services from "./components/body/navLinksBodys/Services";
+// import "font-awesome/css/font-awesome.min.css";
 
 function App() {
  
@@ -69,6 +71,10 @@ function App() {
     {
       path:'/ContactUs',
       element: <><Header/> <ContactUs/> <Footer/></>
+    },
+    {
+      path:'/Services',
+      element:<><Header/> <Services/> <Footer/></>
     }
 
     

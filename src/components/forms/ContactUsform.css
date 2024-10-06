@@ -1,0 +1,56 @@
+/* src/ContactUs.css */
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333; /* Dark background */
+    color: white;
+  }
+  
+  .formSection {
+    width: 50%;
+  }
+  
+  .infoSection {
+    width: 40%;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .submitButton {
+    padding: 10px 20px;
+    background-color: #ff5722; /* Orange color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #e64a19; /* Darker orange */
+  }
+  
+  .infoSection p {
+    margin: 5px 0;
+  }
+  

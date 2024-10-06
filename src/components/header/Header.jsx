@@ -3,10 +3,13 @@ import "./Header.css";
 import logo from "../../assets/images/trishokalogonobg.png";
 import { Link } from "react-router-dom";
 export default function Header(props) {
-  const navLinks = ["Partnership", "Blogs", "Careers", "ContactUs"];
+  const navLinks = ["Partnership", "Blogs", "Services", "Careers", "ContactUs"];
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-light ">
+    <div style={{ position: "fixed", zIndex: "200000" }}>
+      <nav
+        style={{ position: "fixed", zIndex: "200000" }}
+        className="navbar navbar-expand-lg navbar-light "
+      >
         <div className="container-fluid" style={{ marginBottom: "20px" }}>
           <a className="navbar-brand" href="navbar.html">
             <img src={logo} width="70px" alt="Trishoka Logo" />
